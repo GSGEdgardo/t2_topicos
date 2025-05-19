@@ -3,16 +3,17 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-    - pip=25.1
-    - python=3.12.9
-    - jupyterlab=4.4.2
-    - pip:
-        - black==25.1.0
-        - coloredlogs==15.0.1
-        - matplotlib==3.10.1
-        - notebook==7.4.2
-        - numpy==2.1.3
-        - pandas==2.2.3
-        - seaborn==0.13.2
-        - typeguard==4.4.2
-        - ydata-profiling==4.16.1
+  - python=3.12
+  - jupyterlab
+  - pip
+  - pip:
+      - ydata-profiling
+      - black
+      - coloredlogs
+      - matplotlib
+      - notebook
+      - numpy
+      - pandas
+      - seaborn
+      - typeguard
+      - scikit-learn
